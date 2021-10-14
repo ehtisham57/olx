@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.formheader{
+    margin-right: 50px;
+}
+.formheader input{
+    margin-left: 20px;
+}
+.formheader button{
+    margin-left: 50px;
+}
+
+.formheader a{
+    color: #003034;
+    margin: 0 20px;
+}
+.header2{
+    margin:0 100px;
+}
+.header2 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header2 ul li{
+    margin:10px 15px;
+    font-size: 12px;
+}
+.bnner1{
+    width: 100%;
+
+}
+.bnner1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+.cards>div{
+    padding:5px !important;
+    margin: 20px 0;
+    position: relative;
+}
+.cards>div i{
+    font-size: 25px;
+    color: #033035;
+    top: 15px;
+    right: 25px;
+    position: absolute;
+}
+.loardmore{
+    text-align: center;
+    padding: 15px;
+}
+.loardmore button{
+    border: 3px solid #033035;
+}
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f8faf9;
+}
+.cards1>div{
+    padding:5px !important;
+    margin: 20px;
+    
+}
+.cards>div img{
+    height: 120px;
+    width: 100%;
+    }
+.cards>div>div>h3{
+    font-size: 25px;
+    margin: 5px 20px;
+}
+.cards>div>div>p{
+    font-size: 15px;
+    margin: 5px 20px;
+}
+.cards1text{
+    margin:10px 0;
+    padding: 15px 0;
+    color: #003034;
+    border-right: #003034 1px solid;
+}
+.cards1text h2{
+    margin-top: 30px;
+    font-weight: 500;
+    color: #003034;
+}
+.cards1text p{
+    margin-top: 30px;
+    font-weight: 200;
+    color: #003034;
+}
+.cards1app{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    color: #003034;
+    background: #f8faf9;
+}
+.cards1app h2{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #003034;
+    font-size: 20px;
+}
+.cards1app span{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.cards1app span img{
+    width: 100px;
+    margin-right: auto;
+}
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(235,238,239);
+}
+.end1 ,.end2 ,.end3 ,.end4 ,.end5{
+    margin: 20px;
+    padding: 10px;
+}
+.end h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #033035;
+}
+.end li{
+    margin: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #575e5f;
+    transition: .5s;
+}
+.end li:hover{
+    color: #003034;
+    text-decoration: underline;
+}
+.end5 i{
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #575e5f;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+.end i:hover{
+    color: #003034;
+}
+.end5 span{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.end5 span img{
+    width: 80px;
+    margin-right: 20px;
+    
+}
+.foooter{
+    width: 100%;
+    background: #003034;
+    color: #f8faf9;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80px;
+    
+}
+.foooter>div{
+    margin: auto;
+}
+.foooter h2{
+    font-size: 15px;
+    margin: 10px;
+}
+.foooter p{
+    font-size: 12px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .formheader{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .header2 ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .bnner1 img{
+        height: 150px;
+    }
+}
+@media screen and (max-width:600px){
+    .bnner1 img{
+        height: 90px;
+    }
+    .formheader{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    .header2 ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    .end5 span{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cards>div img{
+        height: 120px;
+        width: 100%;
+        }
+    
+}
+@media screen and (max-width:300px){
+    .bnner1 img{
+        height: 50px;
+    }
+    .end{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards>div img{
+        height: 60px;
+        width: 100%;
+        }
+}
